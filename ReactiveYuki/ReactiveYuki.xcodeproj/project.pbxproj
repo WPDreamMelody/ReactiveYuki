@@ -15,6 +15,8 @@
 		A74B061C1BC7CE52001CC4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74B061A1BC7CE52001CC4E9 /* LaunchScreen.storyboard */; };
 		A74B06271BC7CE52001CC4E9 /* ReactiveYukiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B06261BC7CE52001CC4E9 /* ReactiveYukiTests.m */; };
 		A74B06321BC7CE52001CC4E9 /* ReactiveYukiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B06311BC7CE52001CC4E9 /* ReactiveYukiUITests.m */; };
+		A79510B91BE33BEE006F9284 /* head sculpture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A79510B81BE33BEE006F9284 /* head sculpture@2x.png */; };
+		A7FBBF071BDA1F9800322DC3 /* NVCricleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FBBF061BDA1F9800322DC3 /* NVCricleView.m */; };
 		D4E7C28355EB25BDD17B99AF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2406AED12284D760532C0A6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,9 @@
 		A74B062D1BC7CE52001CC4E9 /* ReactiveYukiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveYukiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74B06311BC7CE52001CC4E9 /* ReactiveYukiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveYukiUITests.m; sourceTree = "<group>"; };
 		A74B06331BC7CE52001CC4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79510B81BE33BEE006F9284 /* head sculpture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head sculpture@2x.png"; sourceTree = "<group>"; };
+		A7FBBF051BDA1F9800322DC3 /* NVCricleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVCricleView.h; sourceTree = "<group>"; };
+		A7FBBF061BDA1F9800322DC3 /* NVCricleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVCricleView.m; sourceTree = "<group>"; };
 		D2406AED12284D760532C0A6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,6 +121,7 @@
 		A74B060B1BC7CE52001CC4E9 /* ReactiveYuki */ = {
 			isa = PBXGroup;
 			children = (
+				A7FBBF041BDA1F6900322DC3 /* UIView */,
 				A74B060F1BC7CE52001CC4E9 /* AppDelegate.h */,
 				A74B06101BC7CE52001CC4E9 /* AppDelegate.m */,
 				A74B06121BC7CE52001CC4E9 /* ViewController.h */,
@@ -153,6 +159,16 @@
 				A74B06331BC7CE52001CC4E9 /* Info.plist */,
 			);
 			path = ReactiveYukiUITests;
+			sourceTree = "<group>";
+		};
+		A7FBBF041BDA1F6900322DC3 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				A79510B81BE33BEE006F9284 /* head sculpture@2x.png */,
+				A7FBBF051BDA1F9800322DC3 /* NVCricleView.h */,
+				A7FBBF061BDA1F9800322DC3 /* NVCricleView.m */,
+			);
+			name = UIView;
 			sourceTree = "<group>";
 		};
 		D6AC1CBA53284CB13C542957 /* Pods */ = {
@@ -233,6 +249,7 @@
 				TargetAttributes = {
 					A74B06081BC7CE52001CC4E9 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZP9863MDHG;
 					};
 					A74B06211BC7CE52001CC4E9 = {
 						CreatedOnToolsVersion = 7.0;
@@ -272,6 +289,7 @@
 				A74B061C1BC7CE52001CC4E9 /* LaunchScreen.storyboard in Resources */,
 				A74B06191BC7CE52001CC4E9 /* Assets.xcassets in Resources */,
 				A74B06171BC7CE52001CC4E9 /* Main.storyboard in Resources */,
+				A79510B91BE33BEE006F9284 /* head sculpture@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +349,7 @@
 			files = (
 				A74B06141BC7CE52001CC4E9 /* ViewController.m in Sources */,
 				A74B06111BC7CE52001CC4E9 /* AppDelegate.m in Sources */,
+				A7FBBF071BDA1F9800322DC3 /* NVCricleView.m in Sources */,
 				A74B060E1BC7CE52001CC4E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +422,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: melody1988@live.cn (4FKR5AZJ9V)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -425,6 +445,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "aaecd257-e05a-40e1-957a-23ea400a2524";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -446,6 +467,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: melody1988@live.cn (4FKR5AZJ9V)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -461,6 +483,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "aaecd257-e05a-40e1-957a-23ea400a2524";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -471,6 +494,7 @@
 			baseConfigurationReference = 0E9871376F22BBF28593273B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: melody1988@live.cn (4FKR5AZJ9V)";
 				INFOPLIST_FILE = ReactiveYuki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Yuki.ReactiveYuki;
@@ -483,6 +507,7 @@
 			baseConfigurationReference = 65177C9D6B3BBB4DC66DBEDC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: melody1988@live.cn (4FKR5AZJ9V)";
 				INFOPLIST_FILE = ReactiveYuki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Yuki.ReactiveYuki;
