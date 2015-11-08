@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
-#import "NVCricleView.h"
+#import "RACSignal+nl_Subscription.h"
 
 @interface ViewController ()
 @property (nonatomic,strong) UITextField *passwordlbl;
@@ -119,7 +119,26 @@
     [numbers sendNext:@"1"];
     
     
+    RACSignal *signalInterval = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:[NSDate date]];
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0*NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [subscriber sendNext:[NSDate date]];
+            [subscriber sendCompleted];
+        });
+        return nil;
+    }];
     
+    [signalInterval nl_subscribeNext:^(id x) {
+        NSLog(@"%s>>>%@",sel_getName(_cmd),x);
+    } error:^(NSError *error) {
+       NSLog(@"error!");
+    } completed:^{
+        NSLog(@"complete!");
+    }];
+    RACSignal *rac_s = [RACSignal interval:5.0 onScheduler:[RACScheduler mainThreadScheduler]];
+    [rac_s subscribe:nil];
+                                 
 }
 
 - (void)doTest

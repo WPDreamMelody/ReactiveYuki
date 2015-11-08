@@ -15,8 +15,11 @@
 		A74B061C1BC7CE52001CC4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74B061A1BC7CE52001CC4E9 /* LaunchScreen.storyboard */; };
 		A74B06271BC7CE52001CC4E9 /* ReactiveYukiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B06261BC7CE52001CC4E9 /* ReactiveYukiTests.m */; };
 		A74B06321BC7CE52001CC4E9 /* ReactiveYukiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B06311BC7CE52001CC4E9 /* ReactiveYukiUITests.m */; };
-		A79510B91BE33BEE006F9284 /* head sculpture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A79510B81BE33BEE006F9284 /* head sculpture@2x.png */; };
-		A7FBBF071BDA1F9800322DC3 /* NVCricleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FBBF061BDA1F9800322DC3 /* NVCricleView.m */; };
+		B6A647541BEE3EA200DA0A6E /* NLSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A647531BEE3EA200DA0A6E /* NLSubscriber.m */; settings = {ASSET_TAGS = (); }; };
+		B6A647571BEE4E5B00DA0A6E /* RACSignal+nl_Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A647561BEE4E5B00DA0A6E /* RACSignal+nl_Subscription.m */; settings = {ASSET_TAGS = (); }; };
+		B6A6475A1BEED5D500DA0A6E /* NLDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A647591BEED5D500DA0A6E /* NLDisposable.m */; settings = {ASSET_TAGS = (); }; };
+		B6A6475D1BEEDFD900DA0A6E /* NLCompoundDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A6475C1BEEDFD900DA0A6E /* NLCompoundDisposable.m */; settings = {ASSET_TAGS = (); }; };
+		B6A647601BEF9B9700DA0A6E /* NLPassthrounghSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A6475F1BEF9B9700DA0A6E /* NLPassthrounghSubscriber.m */; settings = {ASSET_TAGS = (); }; };
 		D4E7C28355EB25BDD17B99AF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2406AED12284D760532C0A6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,9 +59,16 @@
 		A74B062D1BC7CE52001CC4E9 /* ReactiveYukiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveYukiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74B06311BC7CE52001CC4E9 /* ReactiveYukiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveYukiUITests.m; sourceTree = "<group>"; };
 		A74B06331BC7CE52001CC4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A79510B81BE33BEE006F9284 /* head sculpture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head sculpture@2x.png"; sourceTree = "<group>"; };
-		A7FBBF051BDA1F9800322DC3 /* NVCricleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVCricleView.h; sourceTree = "<group>"; };
-		A7FBBF061BDA1F9800322DC3 /* NVCricleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVCricleView.m; sourceTree = "<group>"; };
+		B6A647521BEE3EA200DA0A6E /* NLSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSubscriber.h; sourceTree = "<group>"; };
+		B6A647531BEE3EA200DA0A6E /* NLSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSubscriber.m; sourceTree = "<group>"; };
+		B6A647551BEE4E5B00DA0A6E /* RACSignal+nl_Subscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSignal+nl_Subscription.h"; sourceTree = "<group>"; };
+		B6A647561BEE4E5B00DA0A6E /* RACSignal+nl_Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+nl_Subscription.m"; sourceTree = "<group>"; };
+		B6A647581BEED5D500DA0A6E /* NLDisposable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLDisposable.h; sourceTree = "<group>"; };
+		B6A647591BEED5D500DA0A6E /* NLDisposable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLDisposable.m; sourceTree = "<group>"; };
+		B6A6475B1BEEDFD900DA0A6E /* NLCompoundDisposable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCompoundDisposable.h; sourceTree = "<group>"; };
+		B6A6475C1BEEDFD900DA0A6E /* NLCompoundDisposable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCompoundDisposable.m; sourceTree = "<group>"; };
+		B6A6475E1BEF9B9700DA0A6E /* NLPassthrounghSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLPassthrounghSubscriber.h; sourceTree = "<group>"; };
+		B6A6475F1BEF9B9700DA0A6E /* NLPassthrounghSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLPassthrounghSubscriber.m; sourceTree = "<group>"; };
 		D2406AED12284D760532C0A6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,7 +131,7 @@
 		A74B060B1BC7CE52001CC4E9 /* ReactiveYuki */ = {
 			isa = PBXGroup;
 			children = (
-				A7FBBF041BDA1F6900322DC3 /* UIView */,
+				B6A647511BEE3E6B00DA0A6E /* subscription */,
 				A74B060F1BC7CE52001CC4E9 /* AppDelegate.h */,
 				A74B06101BC7CE52001CC4E9 /* AppDelegate.m */,
 				A74B06121BC7CE52001CC4E9 /* ViewController.h */,
@@ -161,14 +171,21 @@
 			path = ReactiveYukiUITests;
 			sourceTree = "<group>";
 		};
-		A7FBBF041BDA1F6900322DC3 /* UIView */ = {
+		B6A647511BEE3E6B00DA0A6E /* subscription */ = {
 			isa = PBXGroup;
 			children = (
-				A79510B81BE33BEE006F9284 /* head sculpture@2x.png */,
-				A7FBBF051BDA1F9800322DC3 /* NVCricleView.h */,
-				A7FBBF061BDA1F9800322DC3 /* NVCricleView.m */,
+				B6A647521BEE3EA200DA0A6E /* NLSubscriber.h */,
+				B6A647531BEE3EA200DA0A6E /* NLSubscriber.m */,
+				B6A647551BEE4E5B00DA0A6E /* RACSignal+nl_Subscription.h */,
+				B6A647561BEE4E5B00DA0A6E /* RACSignal+nl_Subscription.m */,
+				B6A647581BEED5D500DA0A6E /* NLDisposable.h */,
+				B6A647591BEED5D500DA0A6E /* NLDisposable.m */,
+				B6A6475B1BEEDFD900DA0A6E /* NLCompoundDisposable.h */,
+				B6A6475C1BEEDFD900DA0A6E /* NLCompoundDisposable.m */,
+				B6A6475E1BEF9B9700DA0A6E /* NLPassthrounghSubscriber.h */,
+				B6A6475F1BEF9B9700DA0A6E /* NLPassthrounghSubscriber.m */,
 			);
-			name = UIView;
+			name = subscription;
 			sourceTree = "<group>";
 		};
 		D6AC1CBA53284CB13C542957 /* Pods */ = {
@@ -289,7 +306,6 @@
 				A74B061C1BC7CE52001CC4E9 /* LaunchScreen.storyboard in Resources */,
 				A74B06191BC7CE52001CC4E9 /* Assets.xcassets in Resources */,
 				A74B06171BC7CE52001CC4E9 /* Main.storyboard in Resources */,
-				A79510B91BE33BEE006F9284 /* head sculpture@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +364,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74B06141BC7CE52001CC4E9 /* ViewController.m in Sources */,
+				B6A647601BEF9B9700DA0A6E /* NLPassthrounghSubscriber.m in Sources */,
+				B6A6475D1BEEDFD900DA0A6E /* NLCompoundDisposable.m in Sources */,
 				A74B06111BC7CE52001CC4E9 /* AppDelegate.m in Sources */,
-				A7FBBF071BDA1F9800322DC3 /* NVCricleView.m in Sources */,
+				B6A647571BEE4E5B00DA0A6E /* RACSignal+nl_Subscription.m in Sources */,
+				B6A6475A1BEED5D500DA0A6E /* NLDisposable.m in Sources */,
 				A74B060E1BC7CE52001CC4E9 /* main.m in Sources */,
+				B6A647541BEE3EA200DA0A6E /* NLSubscriber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
